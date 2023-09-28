@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>index page</title>
+</head>
+<body>
+    <h1>
+        Welcome to Tic Tac Toe Game
+    </h1>
+    <h2>
+        What kind of play do you prefer    </h2>
+    <label>
+        <input type="radio" name="vs" id="multiplayer" value="Multiplayer">
+        Multiplayer
+    </label>
+    <label>
+        <input type="radio" name="vs" id="againstAi" value="AgainstAi">
+        Against Ai
+    </label>
+    
+     
+    <div id="player" style="display: none;">
+        <label for="player1">Enter name of player 1</label>
+        <input type="text" id="player1" placeholder="Enter the name of player 1">
+        <br>
+        <label for="player2">Enter name of player 2</label>
+        <input type="text" id="player2" placeholder="Enter the name of player 2">
+
+    </div>
+    <div id="dificulty" style="display: none;">
+        <label>
+            <input type="radio" name="diff" id="easy" value="easy">
+            Easy
+    
+        </label>
+        
+        <label>
+            <input type="radio" name="diff" value="Meduim" id="Meduim">
+             Meduim
+        </label>   
+        <label>
+            <input type="radio" name="diff" value="Hard" id="Hard">
+            Hard
+    
+        </label>
+        
+      
+    </div>
+    <div class="butt">
+    <a href="Ui.html" id="startLink">
+        <input type="submit" value="Start !">
+    </a>
+</div>
+    <script src="script.js"></script>
+
+    </body>
+    </html>
